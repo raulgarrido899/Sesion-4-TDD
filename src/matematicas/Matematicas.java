@@ -1,3 +1,5 @@
+package matematicas;
+
 public class Matematicas {
     
     public static int Suma(int a, int b){
