@@ -14,11 +14,11 @@ public class Cuenta {
     }
     
     public void ingresar(double x){
-        saldo = 1000;
+        saldo += x;
     }
     
     public void retirar(double x){
-        saldo = 0;
+        saldo = (saldo-x<0)? saldo : (saldo-x);
     }
     
     
