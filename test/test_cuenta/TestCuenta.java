@@ -1,5 +1,6 @@
-package cuenta;
+package test_cuenta;
 
+import Cuenta.Cuenta;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -21,7 +22,6 @@ public class TestCuenta {
     public  void setUpClass(){
         cuenta = new Cuenta("0001.0002.12.1234567890","default_name");
     }
-    
     
     @Test
     public void testIngresar_double() throws Exception{
