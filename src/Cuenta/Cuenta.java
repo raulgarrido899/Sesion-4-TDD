@@ -13,12 +13,12 @@ public class Cuenta {
         saldo=0.0;
     }
     
-    public double ingresar(double x){
-        return 1000;
+    public void ingresar(double x){
+        saldo = 1000;
     }
     
-    public double retirar(double x){
-        return 0;
+    public void retirar(double x){
+        saldo = 0;
     }
     
     
